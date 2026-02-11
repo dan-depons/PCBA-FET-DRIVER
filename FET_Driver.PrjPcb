@@ -74,7 +74,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MFIEDRHR
 
 [Document3]
-DocumentPath=Inputs.SchDoc
+DocumentPath=FETS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -91,7 +91,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TXRILRDJ
 
 [Document4]
-DocumentPath=FET.SchDoc
+DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -105,7 +105,74 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QQMMVRTO
+DocumentUniqueId=UOOPOSJD
+
+[Document5]
+DocumentPath=digital.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OSWQVQMV
+
+[Document6]
+DocumentPath=display.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GHECPPRD
+
+[Document7]
+DocumentPath=sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XPIVVXLF
+
+[ProjectVariant1]
+UniqueID=804CDCC9-0FE9-4878-B78A-1C44FFDAA88E
+Description=Disp TH
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=12A25D41-8143-45E0-8F26-7C70DB03FAF1
+Description=Disp FFC
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
 [Parameter1]
 Name=bomCreatedDate
@@ -199,7 +266,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -215,7 +282,7 @@ OutputDefault2=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -310,7 +377,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -327,7 +394,7 @@ OutputDefault2=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -441,7 +508,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -487,7 +554,7 @@ OutputDefault5=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -667,7 +734,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -703,7 +770,7 @@ OutputDefault5=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=ET-4850 Series(Network)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
