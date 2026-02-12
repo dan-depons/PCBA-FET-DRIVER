@@ -14,7 +14,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=1
+AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -63,7 +63,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -80,7 +80,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -97,7 +97,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -108,13 +108,13 @@ GenerateClassCluster=0
 DocumentUniqueId=UOOPOSJD
 
 [Document5]
-DocumentPath=digital.SchDoc
+DocumentPath=adafruit_feather.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -131,7 +131,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -148,7 +148,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -157,6 +157,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XPIVVXLF
+
+[Document8]
+DocumentPath=pico.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HXWEOXEE
 
 [ProjectVariant1]
 UniqueID=804CDCC9-0FE9-4878-B78A-1C44FFDAA88E
@@ -175,76 +192,76 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=bomCreatedDate
-Value=enter date
+Name=projectSheetTotal
+Value=sch sheet total
 
 [Parameter2]
-Name=bomNotes
-Value=-
-
-[Parameter3]
-Name=pcaDescriptionLine1
-Value=enter description
-
-[Parameter4]
-Name=pcaDescriptionLine2
-Value=enter description
-
-[Parameter5]
-Name=pcaDesctiption
-Value=enter description
-
-[Parameter6]
-Name=pcaNumber
-Value=840xxx
-
-[Parameter7]
-Name=pcaRevision
-Value=A
-
-[Parameter8]
-Name=pcbDescription
-Value=enter description
-
-[Parameter9]
-Name=pcbDescriptionLine1
-Value=enter description
-
-[Parameter10]
-Name=pcbDescriptionLine2
-Value=enter description
-
-[Parameter11]
-Name=pcbNumber
-Value=806xxx
-
-[Parameter12]
-Name=pcbRevision
-Value=A
-
-[Parameter13]
-Name=projectApprovedBy
-Value=enter name
-
-[Parameter14]
-Name=projectApprovedDate
-Value=enter date
-
-[Parameter15]
-Name=projectCreatedDate
-Value=enter date
-
-[Parameter16]
-Name=projectDrawnBy
-Value=enter name
-
-[Parameter17]
 Name=projectName
 Value=project name
 
+[Parameter3]
+Name=projectDrawnBy
+Value=enter name
+
+[Parameter4]
+Name=projectCreatedDate
+Value=enter date
+
+[Parameter5]
+Name=projectApprovedDate
+Value=enter date
+
+[Parameter6]
+Name=projectApprovedBy
+Value=enter name
+
+[Parameter7]
+Name=pcbRevision
+Value=A
+
+[Parameter8]
+Name=pcbNumber
+Value=806xxx
+
+[Parameter9]
+Name=pcbDescriptionLine2
+Value=enter description
+
+[Parameter10]
+Name=pcbDescriptionLine1
+Value=enter description
+
+[Parameter11]
+Name=pcbDescription
+Value=enter description
+
+[Parameter12]
+Name=pcaRevision
+Value=A
+
+[Parameter13]
+Name=pcaNumber
+Value=840xxx
+
+[Parameter14]
+Name=pcaDesctiption
+Value=enter description
+
+[Parameter15]
+Name=pcaDescriptionLine2
+Value=enter description
+
+[Parameter16]
+Name=pcaDescriptionLine1
+Value=enter description
+
+[Parameter17]
+Name=bomNotes
+Value=-
+
 [Parameter18]
-Name=projectSheetTotal
-Value=sch sheet total
+Name=bomCreatedDate
+Value=enter date
 
 [Configuration1]
 Name=Default Configuration
