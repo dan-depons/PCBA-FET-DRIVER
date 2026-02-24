@@ -95,7 +95,7 @@ AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -163,7 +163,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -197,7 +197,7 @@ AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -221,57 +221,6 @@ GenerateClassCluster=0
 DocumentUniqueId=DSDVOZZI
 
 [Document11]
-DocumentPath=Schlib1.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EMODECSP
-
-[Document12]
-DocumentPath=PcbLib1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PQVDXLQL
-
-[Document13]
-DocumentPath=PvLib1.PvLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
 DocumentPath=thermocouple_1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZPWPADN
 
-[Document15]
+[Document12]
 DocumentPath=thermocouple_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GKSCUMHG
 
-[Document16]
+[Document13]
 DocumentPath=analog_converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XZLVGEJX
 
-[Document17]
+[Document14]
 DocumentPath=i2c_mux.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NPVURXNQ
 
-[Document18]
+[Document15]
 DocumentPath=rtc.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,76 +322,76 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=bomCreatedDate
-Value=enter date
+Name=projectSheetTotal
+Value=sch sheet total
 
 [Parameter2]
-Name=bomNotes
-Value=-
-
-[Parameter3]
-Name=pcaDescriptionLine1
-Value=enter description
-
-[Parameter4]
-Name=pcaDescriptionLine2
-Value=enter description
-
-[Parameter5]
-Name=pcaDesctiption
-Value=enter description
-
-[Parameter6]
-Name=pcaNumber
-Value=840xxx
-
-[Parameter7]
-Name=pcaRevision
-Value=A
-
-[Parameter8]
-Name=pcbDescription
-Value=enter description
-
-[Parameter9]
-Name=pcbDescriptionLine1
-Value=enter description
-
-[Parameter10]
-Name=pcbDescriptionLine2
-Value=enter description
-
-[Parameter11]
-Name=pcbNumber
-Value=806xxx
-
-[Parameter12]
-Name=pcbRevision
-Value=A
-
-[Parameter13]
-Name=projectApprovedBy
-Value=enter name
-
-[Parameter14]
-Name=projectApprovedDate
-Value=enter date
-
-[Parameter15]
-Name=projectCreatedDate
-Value=enter date
-
-[Parameter16]
-Name=projectDrawnBy
-Value=enter name
-
-[Parameter17]
 Name=projectName
 Value=project name
 
+[Parameter3]
+Name=projectDrawnBy
+Value=enter name
+
+[Parameter4]
+Name=projectCreatedDate
+Value=enter date
+
+[Parameter5]
+Name=projectApprovedDate
+Value=enter date
+
+[Parameter6]
+Name=projectApprovedBy
+Value=enter name
+
+[Parameter7]
+Name=pcbRevision
+Value=A
+
+[Parameter8]
+Name=pcbNumber
+Value=806xxx
+
+[Parameter9]
+Name=pcbDescriptionLine2
+Value=enter description
+
+[Parameter10]
+Name=pcbDescriptionLine1
+Value=enter description
+
+[Parameter11]
+Name=pcbDescription
+Value=enter description
+
+[Parameter12]
+Name=pcaRevision
+Value=A
+
+[Parameter13]
+Name=pcaNumber
+Value=840xxx
+
+[Parameter14]
+Name=pcaDesctiption
+Value=enter description
+
+[Parameter15]
+Name=pcaDescriptionLine2
+Value=enter description
+
+[Parameter16]
+Name=pcaDescriptionLine1
+Value=enter description
+
+[Parameter17]
+Name=bomNotes
+Value=-
+
 [Parameter18]
-Name=projectSheetTotal
-Value=sch sheet total
+Name=bomCreatedDate
+Value=enter date
 
 [Configuration1]
 Name=Default Configuration
